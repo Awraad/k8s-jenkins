@@ -12,7 +12,6 @@ spec:
     master:
       image: jenkinsci/blueocean
       tag: latest
-      jenkinsUriPrefix: /jenkins
       prometheus:
         enabled: true
         serviceMonitorNamespace: jenkins
